@@ -1,6 +1,6 @@
-<section class="spring-features">
+<section class="spring-features" style="background-color: <?php block_field('background-color') ?>;">
   <div class="container">
-    <div class="row flex-row">
+    <div class="row flex-row<?php if(block_field('orientation', false) == 'left') { ?> row-reverse<?php } ?>">
       <div class="col-sm-6">
         <div class="feature-content">
           <h2><?php block_field('title') ?></h2>
