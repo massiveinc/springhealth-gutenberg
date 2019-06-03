@@ -161,11 +161,17 @@ function gutenbergtheme_fonts_url() {
  * Enqueue scripts and styles.
  */
 function gutenbergtheme_scripts() {
-	wp_enqueue_style( 'gutenbergbase-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'libre-franklin', 'https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700&display=swap' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
+	wp_enqueue_style( 'lightslider', get_template_directory_uri() . '/css/lightslider.min.css' );
+	wp_enqueue_style( 'rangeslider', get_template_directory_uri() . '/css/rangeslider.css' );
+	wp_enqueue_style( 'springhealth-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'springhealth-responsive', get_template_directory_uri() . '/css/responsive.css' );
 
 	wp_enqueue_style( 'gutenbergthemeblocks-style', get_template_directory_uri() . '/css/blocks.css' );
 
-	wp_enqueue_style( 'gutenbergtheme-fonts', gutenbergtheme_fonts_url() );
+	// wp_enqueue_style( 'gutenbergtheme-fonts', gutenbergtheme_fonts_url() );
 
 	wp_enqueue_script( 'gutenbergtheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

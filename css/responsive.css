@@ -1,0 +1,815 @@
+@media screen and (max-width:1199px){
+  .navigation ul.nav-bar > li {
+      margin-left: 20px;
+  }
+  .top-btns .common-btn {
+      min-width: 120px;
+  }
+  .banner-content h1 {
+      font-size: 44px;
+  }
+  .banner-content p {
+      font-size: 16px;
+  }
+  .feature-content h2 {
+      font-size: 28px;
+  }
+  .result-detail {
+      padding: 35px 30px;
+  }
+  .result-detail h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  p {
+      line-height: 1.5;
+  }
+  ul.employer-logos li img {
+      max-width: 100px;
+  }
+  .main-head h2, .invest-content h2 {
+      font-size: 30px;
+  }
+  .main-head {
+      margin-bottom: 30px;
+  }
+  .latest-block .latest-box {
+      width: 180px;
+      min-height: 180px;
+  }
+  .science-post-content h2 {
+      font-size: 26px;
+  }
+  .contat-banner {
+      padding: 40px 0;
+  }
+  .contat-banner h1 {
+      font-size: 44px;
+  }
+  .contact-form{
+      padding: 25px;
+  }
+  .mongoDB-qoutes h3{
+      font-size: 20px;
+  }
+  .matching-points {
+      font-size: 40px;
+  }
+  .client-msg h3 {
+      font-size: 24px;
+  }
+  .bar-block h3 {
+      font-size: 20px;
+  }
+  .employees-count{
+      margin: 20px 0;
+  }
+  .not-recieve {
+      font-size: 32px;
+  }
+  .result-outer .result-block{
+      width: 33%;
+  }
+
+
+}
+
+@media screen and (max-width:991px){
+  .nav-toggle{
+      display: block;
+      width: 35px;
+      border: 0;
+      background: none;
+      position: relative
+  }
+  .nav-toggle span{
+      display: block;
+      width: 34px;
+      height: 3px;
+      background: #000;
+  }
+  .nav-toggle span + span{
+      margin-top: 5px;
+  }
+  .navigation{
+      -webkit-transition: ease 0.3s;
+      -moz-transition: ease 0.3s;
+      transition: ease 0.3s;
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 999;
+      width: 300px;
+      height: 100%;
+      -webkit-transform: translateX(110%);
+      -moz-transform: translateX(110%);
+      transform: translateX(110%);
+      background: #ddeded;
+      display: block;
+      padding: 50px 20px;
+      white-space: normal;
+  }
+  .main-nav-bar{
+      justify-content: space-between;
+      overflow: hidden;
+  }
+  .open-nav {
+      overflow: hidden;
+  }
+  .open-nav .navigation{
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      transform: translateX(0);
+      box-shadow: rgba(0,0,0,0.2) -2px 0 8px
+  }
+  .navigation ul.nav-bar > li {
+      margin-left: 0;
+      width: 100%;
+      margin-bottom: 15px;
+  }
+  .navigation ul.nav-bar > li a{
+      font-size: 16px;
+  }
+  .navigation ul.nav-bar {
+      height: calc(100% - 40px);
+      overflow: auto;
+  }
+  .close-nav{
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      background: url('../images/close.svg') no-repeat 0 0/20px;
+      cursor: pointer;
+  }
+  .banner-content {
+      width: 100%;
+      max-width: 62%;
+  }
+  .banner-inner {
+      height: auto;
+      min-height: 400px;
+  }
+  .banner-content h1 {
+      font-size: 40px;
+      letter-spacing: -1px;
+  }
+  .feature-content {
+      max-width: 90%;
+  }
+  .feature-content h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+  }
+  .result-outer .result-block {
+      padding: 0 15px;
+  }
+  .result-outer .row {
+      margin: 0 -15px;
+  }
+  .result-block-inner:before{
+      width: 6px;
+  }
+  .result-detail {
+      padding: 25px 20px;
+  }
+  .result-detail h4 {
+      font-size: 16px;
+  }
+  .main-head h2, .invest-content h2 {
+      font-size: 26px;
+  }
+  p{
+      font-size: 14px;
+  }
+  ul.employer-logos li img {
+      max-width: 80px;
+  }
+  .common-btn{
+      min-width: 160px;
+  }
+  .latest-block .col-md-3 {
+      padding: 0 15px;
+  }
+  .latest-block{
+      margin: 0 -15px;
+      display: block;
+  }
+  .latest-block .latest-box{
+      width: 100%;
+  }
+  .footer-links {
+      width: 48%;
+  }
+  .video-overlay:after{
+      background-size: 50px;
+  }
+  header {
+      margin-top: 50px;
+  }
+  .submenu:after, .submenu:before, .navigation ul.nav-bar > li.menu-dropdown:after{
+      display: none
+  }
+  span.dd-icon {
+      float: right;
+      width: 30px;
+      text-align: right;
+      font-size: 18px;
+      cursor: pointer;
+  }
+  .navigation ul.nav-bar > li:hover .submenu, .submenu{
+      opacity: 1;
+      visibility: visible;
+  }
+  .submenu{
+      width: 100%;
+      background: none;
+      box-shadow: none;
+      border: 0;
+      position: static;
+      display: none;
+      -webkit-transition: none;
+      -moz-transition: none;
+      transition: none;
+      padding: 0;
+      border-left: #ccc 3px solid;
+      border-radius: 0
+  }
+  .science-post-content h2{
+      font-size: 20px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+  }
+  .science-post-content h2 br{
+      display: none;
+  }
+  .science-post-content{
+      padding-right: 50px;
+  }
+
+  .eliminating-error p{
+      font-size: 12px;
+  }
+  .eliminating-error h3 {
+      font-size: 22px;
+  }
+  .week-8 {
+      padding: 0 20px;
+      width: 80%;
+  }
+  .contact-address {
+      max-width: 90%;
+  }
+  .contact-block h3 {
+      font-size: 22px;
+  }
+  .form-control{
+      height: 40px;
+  }
+  .result-detail p{
+      font-size: 12px;
+      word-break: break-all
+  }
+  body{
+      font-size: 14px;
+  }
+  .mongoDB-qoutes h3 {
+      font-size: 16px;
+  }
+  .bar-block {
+      padding: 50px 30px;
+  }
+  .quote-by img {
+      max-width: 150px;
+  }
+  .matching-points {
+      font-size: 32px;
+  }
+  .spring-features .feature-img.quotes-small-block {
+      max-width: 100%;
+  }
+  .list-half li {
+      width: 100%;
+      padding-right: 0;
+  }
+  .client-msg h3 {
+      font-size: 20px;
+  }
+  .lSSlideOuter .lSPager.lSpg>li {
+      padding: 0 5px;
+  }
+  .client-msg {
+      padding: 0 0 20px;
+  }
+  .our-solution .col-sm-6 {
+      padding: 0 20px;
+  }
+  .our-solution .row {
+      margin: 0 -20px;
+  }
+  /* .navigation ul.nav-bar > li.menu-dropdown:after {
+      position: absolute;
+      right: 0;
+      font-size: 18px;
+      top: 0;
+  } */
+
+
+
+
+}
+
+@media screen and (max-width:767px) and (max-height:300px){
+  .navigation{
+      padding: 20px;
+  }
+}
+
+
+@media screen and (max-width:767px){
+  .banner-content {
+      max-width: 80%;
+  }
+  .banner-content h1 {
+      font-size: 36px;
+      letter-spacing: 0;
+  }
+  .flex-row{
+      display: block;
+  }
+  .feature-content{
+      text-align: center;
+      max-width: 100%;
+      padding: 0 20px;
+      margin-bottom: 30px;
+  }
+  .feature-img img{
+      margin: auto;
+      max-width: 100%;
+  }
+  .result-outer .row {
+      justify-content: center;
+  }
+  .result-outer .result-block {
+      max-width: 50%;
+      margin-bottom: 30px;
+  }
+  .result-outer .result-block:last-of-type{
+      margin-bottom: 0;
+  }
+  .main-head {
+      margin-bottom: 20px;
+  }
+  .feature-content h2 br{
+      display: none;
+  }
+  ul.employer-logos{
+      width: auto;
+  }
+  ul.employer-logos li {
+      margin: 10px 12px 20px;
+  }
+  ul.employer-logos li img {
+      max-width: 70px;
+  }
+  .footer-logo p {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+  }
+  .footer-links {
+      margin: 30px 0;
+  }
+  .hide-resp{
+      display: none;
+  }
+  .show-resp{
+      display: block;
+      margin-top: 30px;
+  }
+
+  .banner-content {
+      max-width: 400px;
+  }
+  .banner-main:after{
+       background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 40%, rgba(255,255,255,0) 100%);
+  }
+
+  .eliminating-error > div{
+      width: 100%
+  }
+  .eliminating-error{
+      display: block;
+  }
+  .rate-bars{
+      width: 180px;
+  }
+  .week-8{
+      margin-top: 20px;
+  }
+  .eliminating-error h3 {
+      font-size: 28px;
+  }
+  .main-head p br, .science-head p br{
+      display: none
+  }
+  .science-post{
+      padding: 40px 0;
+  }
+  .post-info {
+      width: 20%;
+      flex: 0 0 20%;
+  }
+  .science-post-content {
+      padding-right: 30px;
+  }
+  .common-btn {
+      height: 45px;
+      line-height: 42px;
+  }
+  .contat-banner h1 {
+      font-size: 36px;
+      text-align: center;
+  }
+  .contact-form , .contact-address{
+      max-width: 500px;
+      margin: auto;
+  }
+  .contact-address{
+      margin-top: 30px;
+  }
+  .banner-content p br{
+      display: none;
+  }
+  .feature-content ul li {
+      list-style-position: inside;
+  }
+  .quotes-small-block .bar-block{
+      max-width: 400px;
+      margin: auto;
+  }
+  .feature-content ul.list-styled {
+      margin-bottom: 20px;
+      display: inline-block;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 0em !important;
+  }
+  .matching-options {
+      margin-bottom: 20px;
+  }
+  .feature-content ul li:last-of-type{
+      margin-bottom: 0
+  }
+  .client-msg h3 {
+      font-size: 18px;
+  }
+  ul.tick-list li:before{
+      position: relative;
+      top: 7px;
+      margin-right: 15px;
+  }
+  ul.tick-list li{
+      padding-left: 0
+  }
+  .testimonial-slider {
+      max-width: 100%;
+  }
+  .bar-line span{
+      font-size: 30px;
+  }
+
+  .result-outer .result-block{
+      width: 100%;
+  }
+
+}
+
+@media screen and (max-width:640px){
+  .banner-content {
+      max-width: 100%;
+  }
+  .banner-content h1 {
+      font-size: 32px;
+  }
+  .banner-main:after{
+      background-size: 100%;
+  }
+  .feature-content h2 {
+      font-size: 22px;
+  }
+  .banner-inner {
+      padding: 30px 0;
+      min-height: 300px;
+  }
+  .banner-content p {
+      font-size: 14px;
+  }
+  .spring-features .feature-img{
+      max-width: 300px;
+      margin: 0 auto
+  }
+  .main-head h2, .invest-content h2 {
+      font-size: 22px;
+  }
+  .result-outer .result-block {
+      max-width: 70%;
+  }
+  .latest-block .latest-box{
+      margin: 15px 0;
+  }
+  section, footer {
+      padding: 40px 0;
+  }
+  .footer-links li a {
+      font-size: 12px;
+  }
+  .result-detail{
+      text-align: center
+  }
+
+ .banner-content {
+      max-width: 350px;
+  }
+
+  .common-btn{
+    height: 40px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  .science-post {
+      padding: 30px 0;
+      display: block;
+  }
+  .science-post-content {
+      padding-right: 0;
+  }
+  .contact-map iframe{
+      height: 300px;
+  }
+  .testimonial-slider {
+      max-width: 100%;
+  }
+  .client-msg h3 {
+      font-size: 16px;
+  }
+  ul.tick-list li {
+      padding: 0;
+  }
+  ul.tick-list li:before {
+      top: 12px;
+      margin-right: 10px;
+      background-size: 20px;
+  }
+
+  .impact-bar-list {
+      -webkit-transform: scale(0.6);
+      -moz-transform: scale(0.6);
+      transform: scale(0.6);
+  }
+  .our-impact-bars{
+      padding: 0
+  }
+
+
+}
+
+@media screen and (max-width:480px){
+  .banner-content {
+      max-width: 250px;
+  }
+
+  .banner-content h1 {
+      font-size: 24px;
+  }
+  .common-btn{
+      font-size: 12px;
+  }
+  .navigation{
+      width: 250px;
+  }
+  .close-nav {
+      top: 15px;
+      right: 10px;
+      width: 25px;
+      height: 25px;
+      background-size: 15px;
+  }
+  .top-btns .common-btn {
+      min-width: 46%;
+      padding: 0 10px;
+      font-size: 12px;
+  }
+  .feature-content{
+      padding: 0
+  }
+  .common-btn {
+      min-width: 150px;
+  }
+  .spring-features .feature-img {
+      max-width: 200px;
+  }
+  .feature-content h2, .main-head h2, .invest-content h2 {
+      font-size: 18px;
+  }
+  .result-outer .result-block {
+      max-width: 80%;
+  }
+  .result-detail {
+      padding: 25px 10px;
+  }
+  ul.employer-logos li {
+      margin: 10px 15px 20px;
+  }
+  ul.employer-logos li img {
+      max-width: 60px;
+  }
+  .latest-block {
+      margin: 0 -10px;
+  }
+  .latest-block .latest-box{
+      min-height: 150px;
+      margin: 10px 0;
+  }
+  .latest-block .col-md-3 {
+      padding: 0 10px;
+  }
+  .invest-content h2 {
+      margin-bottom: 20px;
+  }
+  .footer-links {
+      width: 100%;
+  }
+  .footer-links {
+      margin: 20px 0px;
+      display: block;
+  }
+  .hipaa {
+      display: block;
+      max-width: 180px;
+  }
+  .latest-block > div{
+      padding: 0 10px;
+  }
+  .eliminating-error h3 {
+      font-size: 22px;
+      line-height: 1.3
+  }
+  .spring-features .feature-img {
+      max-width: 280px;
+  }
+  .science-post-content h2 {
+      font-size: 18px;
+  }
+  .result-outer.contact-result .result-block {
+      width: 250px;
+      max-width: 100%;
+  }
+  .contact-form {
+      padding: 15px;
+  }
+  .contat-banner h1 {
+      font-size: 30px;
+  }
+  .contact-address {
+      margin-top: 50px;
+      text-align: center;
+  }
+  .quotes-small-block .bar-block {
+      max-width: 250px;
+  }
+  .mongoDB-qoutes h3 {
+      font-size: 14px;
+  }
+  .bar-block {
+      padding: 30px 20px;
+  }
+  .quote-by img {
+      max-width: 100px;
+  }
+  .matching-points {
+      font-size: 26px;
+  }
+  .matching-options p {
+      font-size: 12px;
+  }
+  .chat-block li span{
+      max-width: 80%;
+  }
+  .client-msg h3 {
+      font-size: 14px;
+  }
+  .lSAction>.lSPrev {
+      left: 0;
+  }
+  .lSAction>a {
+      background-size: 25px;
+      width: 11px;
+  }
+  .lSAction>.lSNext {
+      background-position: -14px 0;
+      right: 0
+  }
+  .lSSlideOuter .lSPager.lSpg>li a {
+      width: 10px;
+      height: 10px;
+  }
+  .provider-baner .banner-content {
+      max-width: 200px;
+  }
+  ul.tick-list li:before {
+      top: 16px;
+      margin-right: 0;
+      background-size: 15px;
+  }
+  ul.tick-list li {
+      margin-bottom: 0;
+      line-height: 1.5;
+  }
+  .navigation ul.nav-bar > li a {
+      font-size: 14px;
+  }
+  .impact-bar-list {
+      -webkit-transform: scale(0.5);
+      -moz-transform: scale(0.5);
+      transform: scale(0.5);
+  }
+  .bar-block h3 {
+      font-size: 14px;
+  }
+  .employees-count p {
+      text-align: left;
+      font-size: 10px;
+  }
+  .not-recieve {
+      font-size: 20px;
+  }
+  #range .ui-slider-handle {
+      margin: -3px 0 0 -9px;
+      height: 25px;
+      width: 25px;
+  }
+  .leading-suport h5 {
+      font-size: 14px;
+  }
+  .result-outer.contact-result .result-block {
+      width: 280px;
+  }
+
+
+
+}
+
+@media screen and (max-width:360px){
+  p, body {
+      font-size: 12px;
+  }
+  .science-post-content h2 {
+      font-size: 16px;
+  }
+  .member-banner .banner-content {
+      max-width: 200px;
+  }
+  .banner-content h1 br{
+      display: none;
+  }
+  .banner-content p {
+      font-size: 13px;
+  }
+
+  .mongoDB-qoutes h3 {
+      font-size: 13px;
+  }
+
+
+
+
+}
+
+
+@media all and (max-width: 768px) and (min-width: 10px){
+  .YouTubePopUp-Content{
+      max-width:90%;
+  }
+}
+
+@media all and (max-width: 600px) and (min-width: 10px){
+  .YouTubePopUp-Content iframe{
+      height:320px !important;
+  }
+
+  .YouTubePopUp-Close{
+      bottom:362px;
+  }
+}
+
+@media all and (max-width: 480px) and (min-width: 10px){
+  .YouTubePopUp-Content iframe{
+      height:220px !important;
+  }
+
+  .YouTubePopUp-Close{
+      bottom:262px;
+  }
+}

@@ -20,33 +20,33 @@
 </head>
 
 <body <?php body_class(); ?>>
+<header>
+	<div class="header-nav">
+			<div class="container">
+					<div class="main-nav-bar">
+							<div class="logo"><a href="index.html"><Img src="images/logo.png" width="130"></a></div>
+							<button class="nav-toggle">
+									<span></span>
+									<span></span>
+									<span></span>
+							</button>
+							<div class="navigation">
+									<?php
+										wp_nav_menu( array(
+											'theme_location' => 'menu-1',
+											'menu_id'        => 'primary-menu',
+											'menu_class'		 => 'nav-bar',
+											'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+											'container'			 => false,
+										) );
+									?>
+									<div class="top-btns">
+											<a href="#" class="common-btn border-btn">Sign In</a>
+											<a href="#" class="common-btn">Get Started</a>
+									</div>
+							</div>
+					</div>
+			</div>
+	</div>
+</header>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'gutenbergtheme' ); ?></a>
-		<header id="masthead" class="site-header">
-			<div class="site-branding">
-				<?php
-				the_custom_logo();
-				if ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-				endif;
-
-				$description = get_bloginfo( 'description', 'display' );
-				if ( $description || is_customize_preview() ) : ?>
-					<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-				<?php
-				endif; ?>
-			</div><!-- .site-branding -->
-
-			<nav id="site-navigation" class="main-navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'gutenbergtheme' ); ?></button>
-				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					) );
-				?>
-			</nav><!-- #site-navigation -->
-		</header><!-- #masthead -->

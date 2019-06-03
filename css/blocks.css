@@ -188,3 +188,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .has-very-dark-gray-background-color {
   background-color: #444;
 }
+
+.spring-features img {
+  max-height: 400px;
+  margin: 0 auto;
+}
